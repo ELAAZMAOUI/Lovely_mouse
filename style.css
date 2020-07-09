@@ -1,0 +1,186 @@
+.micky-mouse-face
+{
+    
+    border :2px solid ;
+background-color: black;
+position: relative;
+margin: auto;
+display: block;
+margin-top: 8%;
+width:450px;
+height: 450px;
+border-radius: 50%;
+
+
+}
+
+
+.micky-mouse-right-ear
+{
+    position: relative;
+    top: -70%;
+    right: -80%;
+    border :2px solid ;
+background-color: black;
+
+width:50%;
+height: 50%;
+border-radius: 50%;
+
+}
+
+.micky-mouse-left-ear
+{
+ position: relative;
+top: -20%;
+        left: -30%;
+    border :2px solid ;
+background-color: black;
+width:50%;
+height: 50%;
+border-radius: 50%;
+
+}
+.micky-mouse-left-eye
+{
+    position: relative;
+             top: -115%;
+             left: 30%;
+    border :2px solid ;
+background-color: white;
+width:60px;
+    height: 130px;
+border-radius: 50%;
+
+}
+
+.micky-mouse-right-eye
+{
+ position: relative;
+ top: -85%;
+ right: -55%;
+    border :2px solid ;
+background-color: white;
+
+width:60px;
+    height: 130px;
+border-radius: 50%;
+
+}
+
+.micky-mouse-right-eyee
+{
+    position: relative;
+    border :2px solid white;
+background-color: black;
+top: 40%;
+width:40px;
+height: 70px;
+margin: auto;
+border-radius: 50%;
+    animation-name: move_eye;
+animation-duration: 3s;
+animation-iteration-count: infinite;
+
+}
+@keyframes move_eye
+{   10% {
+top: 20%;
+}
+20% {
+ top: 40%;
+}
+30% {
+top: 20%;
+}
+40% {
+    top: 40%;
+}
+}
+
+.micky-mouse-left-eyee
+{
+    position: relative;
+    top: 40%;
+    border :2px solid white;
+background-color: black;
+
+width:40px;
+height: 70px;
+margin: auto;
+border-radius: 50%;
+animation-name: move_eye;
+animation-duration: 3s;
+animation-iteration-count: infinite;
+}
+
+
+            .micky-mouse-face_2
+{
+    position: relative;
+    top: -110%;
+    left: -0.5%;
+width: 101%;
+height: 50%; /* as the half of the width */
+background-color: white;
+border-bottom-left-radius: 450px;  /* 100px of height + 10px of border */
+border-bottom-right-radius: 450px; /* 100px of height + 10px of border */
+
+border-top: 0;
+
+}
+.separtor_1
+{
+    position: relative;
+    top: -160%;
+    left: -0.5%;
+    background-color: black;
+    width: 100%;
+    height: 2%;
+    border : 2px solid black;
+    border-radius: 50%;
+}
+    .separtor_2
+{
+    position: relative;
+    top: -160%;
+    
+    background-color: black;
+    width: 99%;
+    height: 2%;
+    border : 2px solid black;
+    border-radius: 50%;
+}
+        .separtor_3
+{
+    position: relative;
+    top: -160%;
+    
+    background-color: black;
+    width: 98.9%;
+    height: 2%;
+    border : 2px solid black;
+    border-radius: 50%;
+}
+        .separtor_4
+{
+    position: relative;
+    top: -160%;
+    left: 0.5%;
+    background-color: black;
+    width: 98%;
+    height: 2%;
+    border : 2px solid black;
+    border-radius: 50%;
+}
+                .separtor_5
+{
+    position: relative;
+    top: -160%;
+    left:1%;
+    background-color: black;
+    width: 97%;
+    height: 2%;
+    border : 2px solid black;
+    border-radius: 50%;
+}
